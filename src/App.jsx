@@ -1,7 +1,11 @@
-import './App.css';
+import Counter from './redux/component/Counter';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Counter />
+    </>
+  );
 }
 
 export default App;
